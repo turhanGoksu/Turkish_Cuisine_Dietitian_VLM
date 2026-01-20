@@ -103,7 +103,7 @@ image = Image.open("path/to/kebab.jpg")
 
 - **Base Model:** Qwen2-VL-2B-Instruct
 - **Technique:** Supervised Fine-Tuning (SFT) with LoRA (Rank: 64, Alpha: 128)
-- **Dataset:** Custom dataset containing 34+ Turkish food categories
+- **Dataset:** Custom dataset containing 48 Turkish food categories
 - **Results:** The model successfully distinguishes visually similar foods (e.g., Et Tantuni vs. Tavuk Tantuni) and provides context-aware health advice (e.g., "Contains high sugar, consume moderately")
 
 ---
@@ -125,11 +125,11 @@ This study was conducted to address the challenge of global VLM models failing t
 This project was built using open-source resources and methodologies. Special thanks to:
 
 ### Technical Guide
-- **Tutorial:** [Fine-tuning VLM Guide (YouTube)](https://www.youtube.com/watch?v=example) - The methodology for fine-tuning Qwen2-VL in this project was adapted from this guide
+- **Tutorial:** [Fine-tuning VLM Guide (YouTube)](https://www.youtube.com/watch?v=3ypHZayanBI) - The methodology for fine-tuning Qwen2-VL in this project was adapted from this guide
 
 ### Datasets
-- [Turkish Food Dataset](https://www.kaggle.com/datasets/turkishfood)
-- [Turkish Cuisine Net](https://www.kaggle.com/datasets/turkishcuisine)
+- [Turkish Cuisine Net (Kaggle)](https://www.kaggle.com/datasets/bingolo/turkishcuisinenet)
+- [Turkish Food Dataset (Kaggle)](https://www.kaggle.com/datasets/dietapp/turkish-food)
 
 ### Academic Papers
 - **Qwen2-VL:** Wang et al., "Qwen2-VL: To See the World More Clearly", arXiv:2409.12191
