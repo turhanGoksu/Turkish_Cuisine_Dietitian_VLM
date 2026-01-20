@@ -1,0 +1,24 @@
+# --- Core Deep Learning ---
+torch
+torchvision
+
+# --- Hugging Face Ecosystem ---
+transformers>=4.45.0
+peft
+datasets
+accelerate
+bitsandbytes
+huggingface_hub
+trl
+
+# --- Qwen Specific Utilities ---
+qwen-vl-utils
+
+# --- Data Processing & Visualization ---
+pandas
+scikit-learn
+pillow
+matplotlib
+
+# --- Jupyter Environment (Optional) ---
+ipykernel
