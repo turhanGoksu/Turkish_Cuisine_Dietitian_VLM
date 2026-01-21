@@ -104,7 +104,7 @@ image = Image.open("path/to/kebab.jpg")
 - **Base Model:** Qwen2-VL-2B-Instruct
 - **Technique:** Supervised Fine-Tuning (SFT) with LoRA (Rank: 64, Alpha: 128)
 - **Dataset:** Custom dataset containing 48 Turkish food categories
-- **Results:** The model successfully distinguishes visually similar foods (e.g., Et Tantuni vs. Tavuk Tantuni) and provides context-aware health advice (e.g., "Contains high sugar, consume moderately")
+- **Results:** The model successfully distinguishes visually similar foods and provides context-aware health advice (e.g., "Contains high sugar, consume moderately")
 
 ---
 
